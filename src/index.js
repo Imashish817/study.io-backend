@@ -1,4 +1,5 @@
 import express from 'express';
+import {} from 'dotenv/config'
 import { z, ZodError } from 'zod';
 import cors from 'cors';
 import sheets, { SHEET_ID } from './sheetClient.js';
